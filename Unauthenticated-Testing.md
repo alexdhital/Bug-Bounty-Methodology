@@ -28,10 +28,11 @@ Now, sort uniq subdomains(DNS hosts) from above process and ping the subdomains 
 
 ## Note
 - Use notify to find any new subdomains added by company on a timely basis
-
-```From above process we will get alive hosts, nmap results of these hosts, web screenshots of hosts where web service is running,
+```
+From above process we will get alive hosts, nmap results of these hosts, web screenshots of hosts where web service is running,
 Dns zone takeovers and subdomain takeovers attacks will be checked and made note of. Make 
-sure to place every result in a separate directory with proper naming conventions, make note of every interesting detail```
+sure to place every result in a separate directory with proper naming conventions, make note of every interesting detail
+```
 
 # Branch Determination and Separation
 NOw since we have so many subdomains we forget to separate these into branches
@@ -54,6 +55,7 @@ Similarly dev is another branch of example.com company where login.dev.example.c
 ## Bash script to 
 - Parse the subdomains to identify the branches.
 - For each identified branch, create a file named after the branch and append all subdomains of that branch to the file.
+
 ```
 #!/bin/bash
 
