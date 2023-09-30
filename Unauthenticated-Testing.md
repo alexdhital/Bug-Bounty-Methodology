@@ -28,15 +28,16 @@ Now, sort uniq subdomains(DNS hosts) from above process and ping the subdomains 
 
 ## Note
 - Use notify to find any new subdomains added by company on a timely basis
-```
+
 From above process we will get alive hosts, nmap results of these hosts, web screenshots of hosts where web service is running,
 Dns zone takeovers and subdomain takeovers attacks will be checked and made note of. Make 
 sure to place every result in a separate directory with proper naming conventions, make note of every interesting detail
-```
+
 
 # Branch Determination and Separation
 NOw since we have so many subdomains we forget to separate these into branches
 Example we have these subdomains:
+
 ```
 login.hello.example.com
 example.com
