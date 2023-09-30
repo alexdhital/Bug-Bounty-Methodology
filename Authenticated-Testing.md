@@ -78,3 +78,6 @@ Try various ways of bypassing captcha
 ## What other headers is the application acepting?
 Use param miner for this
 
+## SECLISTS to the rescue
+If we suspect this type of bug might exist in this request's this parameter Use Seclist's sql injection, command injection, ssti, fuzzing payloads
+
