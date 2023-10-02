@@ -41,6 +41,7 @@ Is csrf token used on crutial functionalities? is it validated or not? Try same 
 
 ## CRUD
 What CRUD operation is each request doing? GET(READ), POST(CREATE), PATCH(UPDATE), etc. Am i able to manipulate GET to POST, PATCH to DELETE?
+![](https://i.ibb.co/qgQ5d10/mmm.png)
 
 ## Functionalities Identification
 Identify what functionality is the application providing
